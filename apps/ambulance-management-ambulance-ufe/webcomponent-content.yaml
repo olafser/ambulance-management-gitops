@@ -1,0 +1,11 @@
+apiVersion: polyfea.github.io/v1alpha1
+kind: WebComponent
+metadata:
+  name: ambulance-management-ambulance-ufe-content
+spec:
+  microFrontend: ambulance-management-ambulance-ufe
+  element: ambulance-management-main-container
+  displayRules:
+    - allOf:
+      - context-name: main-content
+      - path: "^(\\.?/)?ambulance-management(/.*)?$"
