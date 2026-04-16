@@ -13,5 +13,7 @@ resources:
   - install.kustomization.yaml
   - git-repository.yaml
   - ambulance-management-ui.image-policy.yaml
+  - ambulance-management-webapi.image-repository.yaml
+  - ambulance-management-webapi.image-policy.yaml
   - ambulance-management-ui.image-repository.yaml
   - image-update-automation.yaml
