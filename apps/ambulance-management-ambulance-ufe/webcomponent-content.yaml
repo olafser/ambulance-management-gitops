@@ -5,6 +5,9 @@ metadata:
 spec:
   microFrontend: ambulance-management-ambulance-ufe
   element: ambulance-management-main-container
+  attributes:
+    - name: base-path
+      value: /ambulance-management/
   displayRules:
     - allOf:
       - context-name: main-content
