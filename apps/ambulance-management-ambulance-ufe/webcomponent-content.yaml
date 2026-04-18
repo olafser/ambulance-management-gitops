@@ -9,7 +9,7 @@ spec:
     - name: base-path
       value: /ambulance-management/
     - name: api-base
-      value: http://localhost:30081/api
+      value: /ambulance-management-api
   displayRules:
     - allOf:
       - context-name: main-content
