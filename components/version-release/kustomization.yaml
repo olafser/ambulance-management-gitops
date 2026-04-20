@@ -3,7 +3,7 @@ kind: Component
 images:
   - name: olafser/ambulance-management-ui
     newName: olafser/ambulance-management-ui
-    newTag: 1.0.2  #aktuálna verzia docker obrazu, ktorú chcete aby používatelia - cvičiaci - videli nasadenú
+    newTag: 1.0.3  #aktuálna verzia docker obrazu, ktorú chcete aby používatelia - cvičiaci - videli nasadenú
   - name: myrres/ambulance-management-webapi
     newName: myrres/ambulance-management-webapi
     newTag: 1.0.1  #aktuálna verzia docker obrazu, ktorú chcete aby používatelia - cvičiaci - videli nasadenú
