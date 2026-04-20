@@ -1,0 +1,12 @@
+apiVersion: wac-fiit.github.io/v1alpha1
+kind: Project
+metadata:
+  name: ambulance-management
+spec:
+  title: Ambulance Management
+  description: "An application to manage ambulances and their dispatches. It allows users to view, create, and update ambulance information, as well as manage dispatches and track ambulance locations in real-time."
+  authors: "Karolina Skrypova, Oleh Fedunchyk"
+  azureLink: "https://ambulance-management-ui-gna7f9cqe7h7b4hw.polandcentral-01.azurewebsites.net"
+  frontendRepoUrl: "https://github.com/olafser/ambulance-management-ui-app"
+  backendRepoUrl: "https://github.com/olafser/ambulance-management-api-app"
+  gitopsRepoUrl: "https://github.com/olafser/ambulance-management-gitops"
